@@ -21,6 +21,7 @@ License:	GPL
 BuildRequires:	SDL-devel
 Obsoletes:	joystick
 Provides:	joystick
+BuildRoot:	%{_tmppath}/%{name}-root
 
 %description
 Userspace utilities for input devices:
