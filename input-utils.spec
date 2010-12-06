@@ -2,7 +2,7 @@
 %define name	input-utils
 %define version	0
 %define cvsrev	20061008
-%define rel	3
+%define rel	4
 
 %define release	%mkrel 0.%cvsrev.%rel
 
