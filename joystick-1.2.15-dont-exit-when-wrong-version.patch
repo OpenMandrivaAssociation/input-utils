@@ -1,0 +1,13 @@
+--- ./jscal.c.gege	1999-11-17 18:44:11.000000000 +0100
++++ ./jscal.c	2002-10-01 12:37:55.000000000 +0200
+@@ -523,9 +523,8 @@
+ 		exit(1);
+ 	}
+ 	if (version != JS_VERSION) {
+-		fprintf(stderr, "jscal: wrong version\n");
++		fprintf(stderr, "jscal: warning, wrong version; program may fail/segfault/whatever\n");
+ 		print_version();
+-		exit(1);
+ 	}
+ 
+ 	switch (action) {
