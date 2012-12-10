@@ -62,3 +62,31 @@ rm -rf %{buildroot}
 %{_mandir}/man1/jstest.1*
 
 
+
+
+%changelog
+* Mon Dec 06 2010 Oden Eriksson <oeriksson@mandriva.com> 0-0.20061008.4mdv2011.0
++ Revision: 612398
+- the mass rebuild of 2010.1 packages
+
+* Fri Sep 11 2009 Thierry Vignaud <tv@mandriva.org> 0-0.20061008.3mdv2010.1
++ Revision: 437961
+- rebuild
+
+* Fri Mar 06 2009 Antoine Ginies <aginies@mandriva.com> 0-0.20061008.2mdv2009.1
++ Revision: 350285
+- 2009.1 rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0-0.20061008.1mdv2009.0
++ Revision: 140776
+- restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 0-0.20061008.1mdv2008.1
++ Revision: 127072
+- kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Nov 03 2006 Anssi Hannula <anssi@mandriva.org> 0-0.20061008.1mdv2007.0
++ Revision: 76370
+- Import input-utils
+
