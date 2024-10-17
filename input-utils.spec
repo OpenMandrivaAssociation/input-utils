@@ -11,7 +11,7 @@ Name:		%name
 Version:	%version
 Release:	%release
 Group:		System/Kernel and hardware
-URL:		http://linuxconsole.sourceforge.net/
+URL:		https://linuxconsole.sourceforge.net/
 # From cvs ruby/utils
 Source:		%name-%cvsrev.tar.bz2
 Source1:	jscal.1
