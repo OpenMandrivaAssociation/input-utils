@@ -18,6 +18,7 @@ Source1:	jscal.1
 Source2:	jstest.1
 Patch0:		joystick-1.2.15-dont-exit-when-wrong-version.patch
 License:	GPL
+BuildRequires:	make
 BuildRequires:	SDL-devel
 Obsoletes:	joystick
 Provides:	joystick
